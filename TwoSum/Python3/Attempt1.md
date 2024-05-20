@@ -14,7 +14,7 @@ The Space Complexity of this solution is according to ChatGPT $$O(n)$$
 because the space is constant no matter the data.
 
 # Code
-```
+```Python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)-1):

@@ -13,7 +13,7 @@ The space complexity here is $$O(n)$$
 because a dictionary was used which is similar to a hashmap.
 
 # Code
-```
+```Python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         self.a = dict(enumerate(nums))

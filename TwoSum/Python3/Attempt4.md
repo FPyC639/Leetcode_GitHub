@@ -12,7 +12,7 @@ The time complexity of the approach is still $$O(n^2)$$ because of the search th
 The space complextity of the this problem is still $$O(1)$$
 
 # Code
-```
+```Python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)-1):

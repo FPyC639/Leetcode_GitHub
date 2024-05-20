@@ -12,7 +12,7 @@ The time complexity for this probelm is still $$O(n^2)$$ because of the list ope
 The space complexity for this problem is still $$O(1)$$ because it returns a fixed list.
 
 # Code
-```
+```Python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         a = len(nums)

@@ -13,7 +13,7 @@ for having a dual for loop structure.
 The space complextity in this example is $$O(1)$$ due to it storing only a constant data.
 
 # Code
-```
+```Python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for index, value in enumerate(nums):
