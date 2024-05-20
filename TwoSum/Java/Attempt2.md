@@ -14,7 +14,7 @@ The space complexity here according to ChatGPT is $$O(n)$$
 due to the usage of hashmap.
 
 # Code
-```
+```Java
 import java.util.*;
 class Solution {
     public int[] twoSum(int[] nums, int target) {

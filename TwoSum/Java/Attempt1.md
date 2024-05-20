@@ -13,7 +13,7 @@ The reason being is that I am using two for loops that each time it iterates ove
 Space complexity is approximately 1 because regardless of the input size the operations are still unaffected.
 
 # Code
-```
+```Java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         for(int i = 0; i< nums.length; i++){
