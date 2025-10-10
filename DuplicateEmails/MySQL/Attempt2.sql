@@ -1,0 +1,1 @@
+Select email as Email from Person GROUP BY email Having COUNT(email) >= 2;
