@@ -1,7 +1,5 @@
 Searches for the target value in a sorted list and returns its index if found; otherwise, returns the index where it should be inserted to maintain order.
 
-Uses binary search to achieve efficient lookup.
-
 Args:
     nums (List[int]): A sorted list of integers.
     target (int): The value to search for.
@@ -20,7 +18,6 @@ class Solution:
         rght = len(nums) - 1
         while(lft<=rght):
             mid = floor((lft + rght) / 2)
-            print(mid)
             if  nums[mid] == target:
                 return mid
             elif target < nums[mid]:

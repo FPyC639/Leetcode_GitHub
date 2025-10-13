@@ -5,7 +5,6 @@ class Solution:
         rght = len(nums) - 1
         while(lft<=rght):
             mid = floor((lft + rght) / 2)
-            print(mid)
             if  nums[mid] == target:
                 return mid
             elif target < nums[mid]:
